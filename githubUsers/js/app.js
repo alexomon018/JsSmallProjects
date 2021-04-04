@@ -4,8 +4,8 @@ const userList = document.querySelector('#github-users')
 
 class Github {
   constructor() {
-    this.client_id = 'cefbe7d62dcf9565a80a'
-    this.client_secret = 'd677ece5487e75e06eae964a8e1ff730c179dd04'
+    this.client_id = ''
+    this.client_secret = ''
     this.base = 'https://api.github.com/users/'
   }
 
